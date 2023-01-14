@@ -1,0 +1,61 @@
+body{
+    background: rgb(34,193,195); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 350px;
+    width: 1000px;
+
+}
+
+
+.img-slider {
+    display: grid;
+    margin-top: 20px;
+}
+
+#two{
+    display: none;
+
+}
+
+#three{
+    display: none;
+}
+
+#four{
+    display: none;
+}
+
+#five{
+    display: none;
+}
+button{
+    height: 40px;
+    width: 40px;
+    background-color: #264653;
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    transform: translateY(2px);
+}
+button:active{
+    transform: translateZ(2px);
+}
+
+
+.right-btn{
+    position: relative;
+    right: 40px;
+}
+
+.left-btn{
+    position: relative;
+    left: 40px;
+}
